@@ -139,9 +139,6 @@ footer{
 }
 
 @media (min-width: 768px) {
-	header{
-		position: fixed;
-	}
 	#nav-logo-text{
 		width: 455px;
 	}
