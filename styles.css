@@ -11,10 +11,35 @@ p{
 }
 
 .bg-primary{
-	background-color: rgb(55,79,206)!important;
+	background-color: #81272E!important;
 }
+.bg-secondary{
+	background-color: #294163!important;
+}
+.bg-dark{
+}
+.bg-light{
+	background-color: #C5D8D5!important;
+}
+
+.bg-grey{
+	background-color: #56595e;
+}
+
 .text-primary{
 	color:  rgb(55,79,206)!important;
+}
+.text-secondary{
+	color: #E3E6E6!important;
+}
+.text-light{
+}
+.text-muted{
+	color: #C3EEE7!important;
+}
+
+.text-shadow{
+	text-shadow: 0 0 6px black;
 }
 
 .logo-text-container, h1, h2, h3, h4{
@@ -69,7 +94,7 @@ header{
 }
 
 .berserker-shieldmaiden{
-	max-height: 60vh;
+	max-height: 528px;
 	padding: 0!important;
 }
 .img-cont{
@@ -91,8 +116,8 @@ header{
 	padding: 0;
 	height: 50vh;
 }
-.fitness-trans-bg{
-	background-color: rgba(55,79,206,.3);
+.trans-bg{
+	background-color: rgba(41,65,99,.5);
 	width: 100%;
 	height: 100%;
 }
@@ -112,6 +137,7 @@ header{
 
 footer{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
@@ -135,6 +161,9 @@ footer{
 	#nav-logo-text{
 		display: inline-block;
 		width: 300px;
+	}
+	#fitness-img{
+		background-attachment: fixed;
 	}
 }
 

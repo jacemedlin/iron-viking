@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="assets/logo-icon.png">
-  <title>Iron Viking</title>
+  <title>Iron Viking Apparel</title>
   <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" title="Main" href="styles.css">
+  <link rel="stylesheet" type="text/css" title="Main" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <body>
   <div class="main-cont bg-light">
 	  <header id="headerid">
@@ -40,10 +41,7 @@
 			          <a class="nav-link" href="#">Contact</a>
 			        </li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Login</a>
-					</li>
-					<li class="nav-item">
-					   <a class="nav-link" href="#">Shop</a>
+					   <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
 				   </li>
 			      </ul>
 			</div>
@@ -54,21 +52,38 @@
 		    <ol class="carousel-indicators">
 		      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 		      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 		    </ol>
 		    <div class="carousel-inner">
 		      <div class="carousel-item active">
 		        <img class="d-flex h-100 align-items-center justify-content-center carousel-img" src="assets/carousel2.jpg" alt="First slide">
-		      </div>
+				<div class="carousel-caption h-100 d-flex justify-content-center align-items-center">
+					<div class="carousel-caption-text-container">
+					    <h2 class="text-muted text-shadow">Bad-Ass Gym Apparel for the Everyday Hero</h2>
+					    <p class="text-secondary text-shadow">Check us Out</p>
+						<a class="btn btn-primary">Go</a>
+					</div>
+				  </div>
+			  </div>
 		      <div class="carousel-item">
 		        <img class="d-flex h-100 align-items-center justify-content-center carousel-img" src="assets/carousel1.jpg" alt="Second slide">
-		      </div>
-		      <div class="carousel-item">
-		        <img class="d-flex h-100 align-items-center justify-content-center carousel-img" src="assets/carousel3.jpg" alt="Third slide">
+				<div class="carousel-caption h-100 d-flex justify-content-center align-items-center">
+					<div class="carousel-caption-text-container">
+					    <h2 class="text-muted text-shadow">"You miss 100% of the shots you don't take"</h2>
+					    <p class="text-secondary text-shadow">- Wayne Gretzky</p>
+						<a class="btn btn-primary">Go</a>
+					</div>
+				  </div>
 		      </div>
 			  <div class="carousel-item">
-		        <img class="d-flex h-100 align-items-center justify-content-center carousel-img" src="assets/carousel4.jpg" alt="Fourth slide">
+		        <img class="d-flex h-100 align-items-center justify-content-center carousel-img" src="assets/carousel4.jpg" alt="Third slide">
+				<div class="carousel-caption h-100 d-flex justify-content-center align-items-center">
+					<div class="carousel-caption-text-container">
+					    <h2 class="text-muted text-shadow">Another Header Here</h2>
+					    <p class="text-secondary text-shadow">With a subheader to follow suit</p>
+						<a class="btn btn-primary">Go</a>
+					</div>
+				  </div>
 		      </div>
 		    </div>
 		    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -81,43 +96,56 @@
 		    </a>
 		  </div>
 		  <div class="container">
-			  <section class="row text-center bg-primary text-light">
+			  <section class="row text-center bg-secondary text-light">
 					<div class="col-12"  id="first-section">
 					  	<h1>IRON VIKING APPAREL</h1>
-						<p>Lorem ipsum asfde k kfkfk leoe ope p k gigkgk igkro fefe f f yhhlkfp g</p>
+						<p class="text-secondary">Bad-Ass Gym Apparel for the Everyday Hero</p>
 					</div>
 			  </section>
 			<section class="row text-light bg-dark">
 				<div class="col-sm-6 col-xs-12 card text-center berserker-shieldmaiden">
 					<div class="img-cont"><img src="assets/berserker1.jpg" alt="Berserkers" class="card-img-top"></div>
-					<div class="card-body bg-dark">
-						<h3 class="card-text">Berserkers</h3>
+					<div class="card-body bg-grey">
+						<a class="btn"><h3 class="card-text">Berserkers</h3></a>
 					</div>
 				</div>
 				<div class="col-sm-6 col-xs-12 text-center card berserker-shieldmaiden">
 					<div class="img-cont"><img src="assets/shieldmaiden1.jpg" alt="Shieldmaiden" class="card-img-top"></div>
-					<div class="card-body bg-dark">
-						<h3 class="card-text">Shieldmaiden</h3>
+					<div class="card-body bg-grey">
+						<a class="btn"><h3 class="card-text">Shieldmaiden</h3></a>
 					</div>
 				</div>
 			</section>
 			<section class="row">
 				<div class="col-12" id="fitness-col">
 					<div id="fitness-img">
-						<div class="fitness-trans-bg d-flex align-items-center justify-content-center text-light">
+						<div class="trans-bg d-flex align-items-center justify-content-center text-light">
 							<div class="caption text-center d-block">
 								<h1 id="fitness-header">Fitness</h1>
-								<p>asdf fe ffk kf kfk ofkeo kfogkj ogk ogo o o oefkf kgk</p>
+								<p class="text-secondary">Workout plans and suggested macros fitted to your unique body-type.</p>
 								<a href="#" class="btn btn-primary text-light fitness-btn">Go</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
+			<section class="row">
+				<div class="col-xs-12 text-center bg-secondary p-2 py-sm-5 px-sm-4">
+					<h2 class="text-muted">“Live Unafraid, Die Strong.”</h2>
+					<h4 class="text-light lead">A simple phrase, synonymous with other phrases but this one rings true.</h4><br>
+					<p class="text-secondary">I’ve been involved in plenty of harrowing situations where it was “me or the bad guy” as a police officer. Very quickly I realized peak physical wellness was vital, not only in life or death situations but in everyday life as well. Never have I been afraid of danger, in that I personally study “Odinism” or Norse Mythology. Vikings knew their destiny so they lived and died unafraid and strong. This lifestyle is what I wanted to instill in others. Steps by me were taken to promote combat preparedness and fitness in the county I patrolled by opening a free weight lifting class. This sparked my interest in powerlifting and assisting others to achieve greatness. <br><br>With some study I rapidly grew in size and strength, learning what I could from fitness pros like Jay Cutler, Kai Greene, Jim Stoppani and the like. In time I gained a handful of endorsements to competitively lift. While I never placed in my competitions I learned so much from men and women above me. I took that experience and molded it into what you see today… The Iron Viking brand is here and I plan to outfit everyone in the best gym gear around!</p>
+				</div>
+			</section>
 		  </div>
 	  </main>
 	  <footer class="bg-primary text-light">
 	  	<small>Copyright &#169; Iron Viking Apparel 2018</small>
+		<div class="social-media-row">
+			<a href="#" class="btn"><i class="fab fa-facebook-square"></i></a>
+			<a href="#" class="btn"><i class="fab fa-twitter-square"></i></a>
+			<a href="#" class="btn"><i class="fab fa-instagram"></i></a>
+			<a href="#" class="btn"><i class="fab fa-snapchat-square"></i></a>
+		</div>
 	  </footer>
   </div>
   	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
