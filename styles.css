@@ -10,11 +10,11 @@ p{
 	font-size: 18px;
 }
 
-.background-primary{
-	background-color: rgb(55,79,206);
+.bg-primary{
+	background-color: rgb(55,79,206)!important;
 }
-.text-blue{
-	color:  rgb(55,79,206);
+.text-primary{
+	color:  rgb(55,79,206)!important;
 }
 
 .logo-text-container, h1, h2, h3, h4{
